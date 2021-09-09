@@ -1,7 +1,8 @@
 import { ADD_TO_CART, REMOVE_FROM_CART } from "../cartActions";
 
 const initialState = {
-    cart:[]
+    cart:[],
+    product:[]
 }
 
 const cartReducer = (state = initialState,action)=>{
